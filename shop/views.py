@@ -18,7 +18,7 @@ def index(request):
 
 
 def about(request):
-    return HttpResponse("about")
+    return render(request, 'shop/about.html')
 
 
 def contact(request):
